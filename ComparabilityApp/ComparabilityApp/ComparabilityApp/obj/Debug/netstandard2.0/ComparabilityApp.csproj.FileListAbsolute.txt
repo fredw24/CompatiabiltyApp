@@ -10,3 +10,8 @@ C:\Users\Fred\Documents\C#\Compatability App\ComparabilityApp\ComparabilityApp\C
 C:\Users\Fred\Documents\C#\Compatability App\ComparabilityApp\ComparabilityApp\ComparabilityApp\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\Fred\Documents\C#\Compatability App\ComparabilityApp\ComparabilityApp\ComparabilityApp\obj\Debug\netstandard2.0\ComparabilityApp.dll
 C:\Users\Fred\Documents\C#\Compatability App\ComparabilityApp\ComparabilityApp\ComparabilityApp\obj\Debug\netstandard2.0\ComparabilityApp.pdb
+C:\Users\Fred\Documents\C#\Compatability App\ComparabilityApp\ComparabilityApp\ComparabilityApp\obj\Debug\netstandard2.0\Views\HomePage.xaml.g.cs
+C:\Users\Fred\Documents\C#\Compatability App\ComparabilityApp\ComparabilityApp\ComparabilityApp\obj\Debug\netstandard2.0\Views\Question.xaml.g.cs
+C:\Users\Fred\Documents\C#\Compatability App\ComparabilityApp\ComparabilityApp\ComparabilityApp\obj\Debug\netstandard2.0\Views\About.xaml.g.cs
+C:\Users\Fred\Documents\C#\Compatability App\ComparabilityApp\ComparabilityApp\ComparabilityApp\obj\Debug\netstandard2.0\Views\Result.xaml.g.cs
+C:\Users\Fred\Documents\C#\Compatability App\ComparabilityApp\ComparabilityApp\ComparabilityApp\obj\Debug\netstandard2.0\Views\Update.xaml.g.cs

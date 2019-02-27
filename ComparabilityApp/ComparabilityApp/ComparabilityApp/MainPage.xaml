@@ -9,12 +9,11 @@
         <Label Text="Welcome to Pokematch!" 
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
+        <Button Text="Questionaire" Clicked="QuestionsButton"/>
+        <Button Text="Update Profile" Clicked="UpdateButton"/>
+        <Button Text="Result" Clicked="ResultButton"/>
+        <Button Text="About" Clicked="AboutButton"/>
 
-            <Label Text="Email"/>
-            <Entry Placeholder="Email"/>
-            <Label Text="Password"/>
-            <Entry Placeholder="Password"/>
-            <Button Text="Register" Clicked="Registration"/>
     </StackLayout>
 
 </ContentPage>

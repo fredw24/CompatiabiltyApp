@@ -1,4 +1,5 @@
 ﻿using ComparabilityApp.Models;
+using ComparabilityApp.Views;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,21 +15,26 @@ namespace ComparabilityApp
         {
             InitializeComponent();
         }
-
-        void Registration(object sender, EventArgs e)
+        public async void QuestionsButton(object sender, System.EventArgs e)
         {
-            Console.WriteLine("check");
+            Console.WriteLine("Question");
+            await Navigation.PushAsync(new Question());
+        }
 
-            User user = new User(Email.Text, Password.Text);
-            if (user.CheckInformation())
-            {
-                Console.WriteLine("Success");
-            }
-            else
-            {
-                Console.WriteLine("Fail");
-
-            }
+        public async void UpdateButton(object sender, System.EventArgs e)
+        {
+            Console.WriteLine("Update");
+            await Navigation.PushAsync(new Update());
+        }
+        public async void ResultButton(object sender, System.EventArgs e)
+        {
+            Console.WriteLine("Result");
+            await Navigation.PushAsync(new Result());
+        }
+        public async void AboutButton(object sender, System.EventArgs e)
+        {
+            Console.WriteLine("About");
+            await Navigation.PushAsync(new About());
         }
     }
 }

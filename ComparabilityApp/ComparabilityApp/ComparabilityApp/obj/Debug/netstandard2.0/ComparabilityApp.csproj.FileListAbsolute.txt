@@ -1,0 +1,12 @@
+C:\Users\Fred\Documents\C#\Compatability App\ComparabilityApp\ComparabilityApp\ComparabilityApp\bin\Debug\netstandard2.0\ComparabilityApp.deps.json
+C:\Users\Fred\Documents\C#\Compatability App\ComparabilityApp\ComparabilityApp\ComparabilityApp\bin\Debug\netstandard2.0\ComparabilityApp.dll
+C:\Users\Fred\Documents\C#\Compatability App\ComparabilityApp\ComparabilityApp\ComparabilityApp\bin\Debug\netstandard2.0\ComparabilityApp.pdb
+C:\Users\Fred\Documents\C#\Compatability App\ComparabilityApp\ComparabilityApp\ComparabilityApp\obj\Debug\netstandard2.0\ComparabilityApp.csprojAssemblyReference.cache
+C:\Users\Fred\Documents\C#\Compatability App\ComparabilityApp\ComparabilityApp\ComparabilityApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Fred\Documents\C#\Compatability App\ComparabilityApp\ComparabilityApp\ComparabilityApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Fred\Documents\C#\Compatability App\ComparabilityApp\ComparabilityApp\ComparabilityApp\obj\Debug\netstandard2.0\ComparabilityApp.csproj.CoreCompileInputs.cache
+C:\Users\Fred\Documents\C#\Compatability App\ComparabilityApp\ComparabilityApp\ComparabilityApp\obj\Debug\netstandard2.0\ComparabilityApp.AssemblyInfoInputs.cache
+C:\Users\Fred\Documents\C#\Compatability App\ComparabilityApp\ComparabilityApp\ComparabilityApp\obj\Debug\netstandard2.0\ComparabilityApp.AssemblyInfo.cs
+C:\Users\Fred\Documents\C#\Compatability App\ComparabilityApp\ComparabilityApp\ComparabilityApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Fred\Documents\C#\Compatability App\ComparabilityApp\ComparabilityApp\ComparabilityApp\obj\Debug\netstandard2.0\ComparabilityApp.dll
+C:\Users\Fred\Documents\C#\Compatability App\ComparabilityApp\ComparabilityApp\ComparabilityApp\obj\Debug\netstandard2.0\ComparabilityApp.pdb

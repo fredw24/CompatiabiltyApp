@@ -7,6 +7,120 @@
             <Label Text="Welcome to Questionaire!"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
+
+            <Picker x:Name="Question1" Title="Question1:">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Answer1</x:String>
+                        <x:String>Answer2</x:String>
+                        <x:String>Answer3</x:String>
+                        <x:String>Answer4</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+
+            <Picker x:Name="Question2" Title="Question2:">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Answer1</x:String>
+                        <x:String>Answer2</x:String>
+                        <x:String>Answer3</x:String>
+                        <x:String>Answer4</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+
+            <Picker x:Name="Question3" Title="Question3:">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Answer1</x:String>
+                        <x:String>Answer2</x:String>
+                        <x:String>Answer3</x:String>
+                        <x:String>Answer4</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+
+
+            <Picker x:Name="Question4" Title="Question4:">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Answer1</x:String>
+                        <x:String>Answer2</x:String>
+                        <x:String>Answer3</x:String>
+                        <x:String>Answer4</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+
+            <Picker x:Name="Question5" Title="Question5:">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Answer1</x:String>
+                        <x:String>Answer2</x:String>
+                        <x:String>Answer3</x:String>
+                        <x:String>Answer4</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+
+
+            <Picker x:Name="Question6" Title="Question6:">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Answer1</x:String>
+                        <x:String>Answer2</x:String>
+                        <x:String>Answer3</x:String>
+                        <x:String>Answer4</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+
+            <Picker x:Name="Question7" Title="Question7:">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Answer1</x:String>
+                        <x:String>Answer2</x:String>
+                        <x:String>Answer3</x:String>
+                        <x:String>Answer4</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+
+
+            <Picker x:Name="Question8" Title="Question8:">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Answer1</x:String>
+                        <x:String>Answer2</x:String>
+                        <x:String>Answer3</x:String>
+                        <x:String>Answer4</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+
+            <Picker x:Name="Question9" Title="Question9:">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Answer1</x:String>
+                        <x:String>Answer2</x:String>
+                        <x:String>Answer3</x:String>
+                        <x:String>Answer4</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+
+            <Picker x:Name="Question10" Title="Question10:">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Answer1</x:String>
+                        <x:String>Answer2</x:String>
+                        <x:String>Answer3</x:String>
+                        <x:String>Answer4</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

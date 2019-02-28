@@ -4,9 +4,15 @@
              x:Class="ComparabilityApp.Views.Update">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Update!"
-                VerticalOptions="CenterAndExpand" 
+            <Label Text="Update Profile!"
                 HorizontalOptions="CenterAndExpand" />
+            <Entry x:Name="Pic" Placeholder="PokeImage"/>
+            <Entry x:Name="Location" Placeholder="Favorite Pokemon"/>
+            <Entry x:Name="FavPokemon" Placeholder="Favorite Pokemon"/>
+            <Entry x:Name="Hobbies" Placeholder="Hobbies"/>
+            <Entry x:Name="Description" Placeholder="Description"/>
+
+            <Button Text="Submit" Clicked="Updated"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -15,10 +15,14 @@ namespace ComparabilityApp.Views
 		public Question ()
 		{
             Console.WriteLine("landed");
-			InitializeComponent ();
-
-
+            InitializeComponent();
 
 		}
+
+        public async void QuestionLoad(object sender, System.EventArgs e)
+        {
+
+            await Navigation.PushAsync(new Result());
+        }
 	}
 }

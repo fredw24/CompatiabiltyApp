@@ -2,124 +2,97 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ComparabilityApp.Views.Question">
+    <ContentPage.Resources>
+        <StyleSheet>
+            <![CDATA[  
+            ^contentpage {  
+            background-color: Color.Red;  
+            }  
+            ^Label{  
+            color:  white;  
+            font-size:30;  
+            text-align:center;  
+            }  
+          ]]>
+
+        </StyleSheet>
+    </ContentPage.Resources>
+
+
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Welcome to Questionaire!"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
 
-            <Picker x:Name="Question1" Title="Question1:">
+            <Picker x:Name="Question1" Title="Q1: Favorite Color:">
                 <Picker.ItemsSource>
                     <x:Array Type="{x:Type x:String}">
-                        <x:String>Answer1</x:String>
-                        <x:String>Answer2</x:String>
-                        <x:String>Answer3</x:String>
-                        <x:String>Answer4</x:String>
+                        <x:String>Dark Blue</x:String>
+                        <x:String>Gray</x:String>
+                        <x:String>Orange</x:String>
+                        <x:String>Aqua</x:String>
+                        <x:String>Green</x:String>
+                        <x:String>Cobalt</x:String>
+                        <x:String>Lavender</x:String>
+                        <x:String>White</x:String>
+                        <x:String>Purple</x:String>
+                        <x:String>Light Green</x:String>
+                        <x:String>Brown</x:String>
+                        <x:String>Goldenrod</x:String>
+                        <x:String>Pink</x:String>
+                        <x:String>Yellow</x:String>
+                        <x:String>Cyan</x:String>
+                        <x:String>Red</x:String>
+                        <x:String>Black</x:String>
+                        <x:String>Coral</x:String>
                     </x:Array>
                 </Picker.ItemsSource>
             </Picker>
 
-            <Picker x:Name="Question2" Title="Question2:">
+            <Picker x:Name="Question2" Title="Q2: Are you:">
                 <Picker.ItemsSource>
                     <x:Array Type="{x:Type x:String}">
-                        <x:String>Answer1</x:String>
-                        <x:String>Answer2</x:String>
-                        <x:String>Answer3</x:String>
-                        <x:String>Answer4</x:String>
+                        <x:String>Serious</x:String>
+                        <x:String>Silly</x:String>
+                        <x:String>Shy</x:String>
+                        <x:String>Cutesy</x:String>
                     </x:Array>
                 </Picker.ItemsSource>
             </Picker>
 
-            <Picker x:Name="Question3" Title="Question3:">
+            <Picker x:Name="Question3" Title="Q3: Do you consider yourself:">
                 <Picker.ItemsSource>
                     <x:Array Type="{x:Type x:String}">
-                        <x:String>Answer1</x:String>
-                        <x:String>Answer2</x:String>
-                        <x:String>Answer3</x:String>
-                        <x:String>Answer4</x:String>
-                    </x:Array>
-                </Picker.ItemsSource>
-            </Picker>
-
-
-            <Picker x:Name="Question4" Title="Question4:">
-                <Picker.ItemsSource>
-                    <x:Array Type="{x:Type x:String}">
-                        <x:String>Answer1</x:String>
-                        <x:String>Answer2</x:String>
-                        <x:String>Answer3</x:String>
-                        <x:String>Answer4</x:String>
-                    </x:Array>
-                </Picker.ItemsSource>
-            </Picker>
-
-            <Picker x:Name="Question5" Title="Question5:">
-                <Picker.ItemsSource>
-                    <x:Array Type="{x:Type x:String}">
-                        <x:String>Answer1</x:String>
-                        <x:String>Answer2</x:String>
-                        <x:String>Answer3</x:String>
-                        <x:String>Answer4</x:String>
+                        <x:String>Young and Lively</x:String>
+                        <x:String>Old and Experienced</x:String>
                     </x:Array>
                 </Picker.ItemsSource>
             </Picker>
 
 
-            <Picker x:Name="Question6" Title="Question6:">
+            <Picker x:Name="Question4" Title="Q4: Do you prefer people that are:">
                 <Picker.ItemsSource>
                     <x:Array Type="{x:Type x:String}">
-                        <x:String>Answer1</x:String>
-                        <x:String>Answer2</x:String>
-                        <x:String>Answer3</x:String>
-                        <x:String>Answer4</x:String>
+                        <x:String>Bigger than life, loud, and/or exciting</x:String>
+                        <x:String>Small, timid, and/or calm</x:String>
                     </x:Array>
                 </Picker.ItemsSource>
             </Picker>
 
-            <Picker x:Name="Question7" Title="Question7:">
+            <Picker x:Name="Question5" Title="Q5: Where do you like to spend your time?">
                 <Picker.ItemsSource>
                     <x:Array Type="{x:Type x:String}">
-                        <x:String>Answer1</x:String>
-                        <x:String>Answer2</x:String>
-                        <x:String>Answer3</x:String>
-                        <x:String>Answer4</x:String>
+                        <x:String>Outdoor hiking and sports</x:String>
+                        <x:String>Indoor playing video games and reading</x:String>
+                        <x:String>At the bar socializing</x:String>
+                        <x:String>Doing nothing, relaxing, sleeping, trying to move at little as possible</x:String>
                     </x:Array>
                 </Picker.ItemsSource>
             </Picker>
 
+            <Button Text="Upload Question" Clicked="QuestionLoad"/>
 
-            <Picker x:Name="Question8" Title="Question8:">
-                <Picker.ItemsSource>
-                    <x:Array Type="{x:Type x:String}">
-                        <x:String>Answer1</x:String>
-                        <x:String>Answer2</x:String>
-                        <x:String>Answer3</x:String>
-                        <x:String>Answer4</x:String>
-                    </x:Array>
-                </Picker.ItemsSource>
-            </Picker>
-
-            <Picker x:Name="Question9" Title="Question9:">
-                <Picker.ItemsSource>
-                    <x:Array Type="{x:Type x:String}">
-                        <x:String>Answer1</x:String>
-                        <x:String>Answer2</x:String>
-                        <x:String>Answer3</x:String>
-                        <x:String>Answer4</x:String>
-                    </x:Array>
-                </Picker.ItemsSource>
-            </Picker>
-
-            <Picker x:Name="Question10" Title="Question10:">
-                <Picker.ItemsSource>
-                    <x:Array Type="{x:Type x:String}">
-                        <x:String>Answer1</x:String>
-                        <x:String>Answer2</x:String>
-                        <x:String>Answer3</x:String>
-                        <x:String>Answer4</x:String>
-                    </x:Array>
-                </Picker.ItemsSource>
-            </Picker>
 
         </StackLayout>
     </ContentPage.Content>

@@ -2,6 +2,22 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ComparabilityApp.Views.Update">
+    <ContentPage.Resources>
+        <StyleSheet>
+            <![CDATA[  
+            ^contentpage {  
+            background-color: Color.Red;  
+            }  
+            ^Label{  
+            color:  white;  
+            font-size:30;  
+            text-align:center;  
+            }  
+          ]]>
+
+        </StyleSheet>
+    </ContentPage.Resources>
+
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Update Profile!"

@@ -55,6 +55,7 @@ C:\Users\Fred\Documents\C#\Compatability App\ComparabilityApp\ComparabilityApp\C
 C:\Users\Fred\Documents\C#\Compatability App\ComparabilityApp\ComparabilityApp\ComparabilityApp.Android\bin\Debug\System.ServiceModel.Internals.pdb
 C:\Users\Fred\Documents\C#\Compatability App\ComparabilityApp\ComparabilityApp\ComparabilityApp.Android\bin\Debug\System.Web.Services.pdb
 C:\Users\Fred\Documents\C#\Compatability App\ComparabilityApp\ComparabilityApp\ComparabilityApp.Android\bin\Debug\Mono.Security.pdb
+C:\Users\Fred\Documents\C#\Compatability App\ComparabilityApp\ComparabilityApp\ComparabilityApp.Android\bin\Debug\ComparabilityApp.dll.mdb
 C:\Users\Fred\Documents\C#\Compatability App\ComparabilityApp\ComparabilityApp\ComparabilityApp.Android\obj\Debug\81\linksrc\ComparabilityApp.Android.pdb
 C:\Users\Fred\Documents\C#\Compatability App\ComparabilityApp\ComparabilityApp\ComparabilityApp.Android\obj\Debug\81\linksrc\FormsViewGroup.pdb
 C:\Users\Fred\Documents\C#\Compatability App\ComparabilityApp\ComparabilityApp\ComparabilityApp.Android\obj\Debug\81\linksrc\Mono.Android.pdb
@@ -77,7 +78,6 @@ C:\Users\Fred\Documents\C#\Compatability App\ComparabilityApp\ComparabilityApp\C
 C:\Users\Fred\Documents\C#\Compatability App\ComparabilityApp\ComparabilityApp\ComparabilityApp.Android\obj\Debug\81\linksrc\System.ServiceModel.Internals.pdb
 C:\Users\Fred\Documents\C#\Compatability App\ComparabilityApp\ComparabilityApp\ComparabilityApp.Android\obj\Debug\81\linksrc\System.Web.Services.pdb
 C:\Users\Fred\Documents\C#\Compatability App\ComparabilityApp\ComparabilityApp\ComparabilityApp.Android\obj\Debug\81\linksrc\Mono.Security.pdb
-C:\Users\Fred\Documents\C#\Compatability App\ComparabilityApp\ComparabilityApp\ComparabilityApp.Android\bin\Debug\ComparabilityApp.dll.mdb
 C:\Users\Fred\Documents\C#\Compatability App\ComparabilityApp\ComparabilityApp\ComparabilityApp.Android\obj\Debug\81\linksrc\ComparabilityApp.dll.mdb
 C:\Users\Fred\Documents\C#\Compatability App\ComparabilityApp\ComparabilityApp\ComparabilityApp.Android\obj\Debug\81\android\assets\ComparabilityApp.dll.mdb
 C:\Users\Fred\Documents\C#\Compatability App\ComparabilityApp\ComparabilityApp\ComparabilityApp.Android\obj\Debug\81\android\assets\ComparabilityApp.Android.pdb

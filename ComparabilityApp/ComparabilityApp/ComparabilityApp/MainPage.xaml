@@ -4,6 +4,22 @@
              xmlns:local="clr-namespace:ComparabilityApp"
              x:Class="ComparabilityApp.MainPage">
 
+    <ContentPage.Resources>
+        <StyleSheet>
+            <![CDATA[  
+            ^contentpage {  
+            background-color: Color.Red;  
+            }  
+            ^Label{  
+            color:  white;  
+            font-size:30;  
+            text-align:center;  
+            }  
+          ]]>
+
+        </StyleSheet>        
+    </ContentPage.Resources>
+
     <StackLayout>
         <!-- Place new controls here -->
         <Label Text="Welcome to Pokematch!" 
